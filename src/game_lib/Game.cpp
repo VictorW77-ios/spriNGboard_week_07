@@ -67,7 +67,7 @@ void Game::roll(int roll)
 
       cout << players[currentPlayer] << " is getting out of the penalty box" << endl;
       places[currentPlayer] = places[currentPlayer] + roll;
-      if (places[currentPlayer] > 11) places[currentPlayer] = places[currentPlayer] - 12;
+      if (places[currentPlayer] > 11) places[currentPlayer] = places[currentPlayer] - 12; //sets places[currentPlayer] back to 0 if > 11
 
       cout << players[currentPlayer] << "'s new location is " << places[currentPlayer] << endl;
       cout << "The category is " << currentCategory() << endl;
@@ -129,7 +129,7 @@ string Game::currentCategory()
   if (places[currentPlayer] == 2) return "Sports";
   if (places[currentPlayer] == 6) return "Sports";
   if (places[currentPlayer] == 10) return "Sports";
-  return "Rock";
+  return "Rock";  //Players in place 3 & 7 recieve Rock questions
 }
 
 bool Game::wasCorrectlyAnswered()
