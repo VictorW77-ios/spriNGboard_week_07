@@ -1,3 +1,5 @@
 1. Fixed indentation in Game.h, Game.cpp
 2. Insert #pragma once in Game.h and #if #endif logic
 3. Improved return logic in bool didPlayerWin() (L:196)
+4. Change winner output from "Answer is corrent!!!" to "Answer is correct!!!" in Game.cpp 
+
