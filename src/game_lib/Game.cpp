@@ -193,5 +193,5 @@ bool Game::wrongAnswer()
 
 bool Game::didPlayerWin()
 {
-  return (purses[currentPlayer] != 6);
+  return (purses[currentPlayer] == 6);
 }
