@@ -43,4 +43,3 @@ class Game{
 	bool didPlayerWin();
 };
 
-#endif /* GAME_H_ */
