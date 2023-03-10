@@ -9,7 +9,8 @@ using namespace std;
 Game::Game() : places{}, purses{}, currentPlayer(0){
 	for (int i = 0; i < 50; i++)
 	{
-		ostringstream oss (ostringstream::out);
+
+	  ostringstream oss (ostringstream::out);
 		oss << "Pop Question " << i;
 
 		popQuestions.push_back(oss.str());
