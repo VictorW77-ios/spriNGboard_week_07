@@ -2,9 +2,7 @@
 #include <list>
 #include <vector>
 using namespace std;
-
-#ifndef GAME_H_
-#define GAME_H_
+#pragma once; 
 
 class Game{
 
