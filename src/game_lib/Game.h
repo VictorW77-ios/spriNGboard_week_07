@@ -2,7 +2,8 @@
 #include <list>
 #include <vector>
 using namespace std;
-#pragma once; 
+
+#pragma once  
 
 class Game{
 

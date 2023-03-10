@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
-#include <sstream>
+#include <sstream> //provides osstream
 
 using namespace std;
 
@@ -193,5 +193,5 @@ bool Game::wrongAnswer()
 
 bool Game::didPlayerWin()
 {
-  return !(purses[currentPlayer] == 6);
+  return (purses[currentPlayer] != 6);
 }
