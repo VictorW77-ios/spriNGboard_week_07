@@ -1,2 +1,2 @@
 1. Fixed indentation in Game.h, Game.cpp
-2. Insert #pragma once in Game.h
+2. Insert #pragma once in Game.h and #if #endif logic
