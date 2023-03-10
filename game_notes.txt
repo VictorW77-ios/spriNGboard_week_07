@@ -1,8 +1,8 @@
 1. Fixed indentation in Game.h, Game.cpp
-2. Insert #pragma once in Game.h 
-3. Removed #if #endif logic in Game.h
+2. Insert #pragma once in Game.h to remove unnecessary headers + include them throughout the project
+3. Removed #if #endif logic in Game.h since #pragma once was included
 4. Improved readability of return statement in bool didPlayerWin() (L:196)
-5. Change winner output from "Answer is corrent!!!" to "Answer is correct!!!" in Game.cpp(L:167)
+5. Changed winner output from "Answer is corrent!!!" to "Answer is correct!!!" in Game.cpp(L:167)
 6. Added various notes to better understand the game itself
-7. Removed std namespace in header file Game.h 
+7. Removed std namespace in header file Game.h to reduce conflicts and redundancy caused by using namespace std in a header file
 
