@@ -129,7 +129,7 @@ string Game::currentCategory()
   if (places[currentPlayer] == 2) return "Sports";
   if (places[currentPlayer] == 6) return "Sports";
   if (places[currentPlayer] == 10) return "Sports";
-  return "Rock";  //Players in place 3 & 7 recieve Rock questions
+  return "Rock";  //Players in place 3, 7, and 11 recieve Rock questions
 }
 
 bool Game::wasCorrectlyAnswered()
